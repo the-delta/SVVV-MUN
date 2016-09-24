@@ -1,0 +1,14 @@
+function aboutSVVV() {
+  document.getElementById('aboutBoth').style.display = "block";
+  document.getElementById('message').innerHTML = "<center><h1>About Shri Vaishnav Vidyapeeth Vishwavidyalaya</h1></center><br /><br /><p>Shri Vaishnav Vidyapeeth Vishwavidyalaya is a private university established under Madhya Pradesh Niji Vishwavidyalaya ( Sthapana Avam Sanchalan) Adhiniyam in 2015 at Indore (India). The University has been established with a vision to be leader in shaping better future for mankind through quality education, training and research. It shall pursue the mission to make a difference in sustaining the growth of global societies by developing socially responsible citizens. Value based education being at the helm, the University shall promote endurance, excellence, fairness, honesty and transparency as its core values. Some of the objectives of the University are as under:</p><p>&#62; To provide teaching and training in higher education and make provision for research as well as advancement and dissemination of knowledge.</p> <p>&#62; To ensure world class quality in its offerings and create higher levels of intellectual abilities.</p><p>&#62; To create centres of excellence for research and development for sharing knowledge and its applications.</p><p>Shri Vaishnav Vidyapeeth Vishwavidyalaya at Indore will be a multi-faculty University focusing on the needs of various segments of the society. </p>";
+}
+
+function aboutSVVVMUN() {
+  document.getElementById('aboutBoth').style.display = "block";
+  document.getElementById('message').innerHTML = "<center><h1>Why Shri Vaishnav Vidyapeeth Vishwavidyalaya International Model United Nations?</h1></center><br /><br /><p>&#62; SVVIMUN is the first ever University based Model United Nations Conference taking in Indore. With an expectation of more than 500+ delegates to be a part of the conference, we are more than confident of having three days of wonderful debate along with a lot of social events and gatherings taking place as well. SVVIMUN shall also see some of the best panel discussions with some of Indore's most eminent personalities from the social, economic and political spheres participating in them. </p><p>&#62; SVVIMUN is going to be a three day celebration of the rich culture and heritage that Indore boasts of and most importantly, a celebration of MUNning in Indore.</p><p>&#62; All the agendas in the committees are based around the theme- &#34;World Issue&#34;. Both these regions of the world have a lot of issues in every possible sphere that have to be dealt with in an effective manner by all the different United Nations bodies. Our effort is a humble attempt in this direction. </p>";
+}
+
+function closeOpenWindow() {
+  document.getElementById('aboutBoth').innerHTML = '<div onclick="closeOpenWindow()" id="backButton">&#171;</div><br /><div id="message"></div>';
+  document.getElementById('aboutBoth').style.display = "none";
+}

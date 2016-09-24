@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>SVVVMUN | Messages</title>
+      <link rel="stylesheet" href="css/messages.css" media="screen" title="no title" charset="utf-8">
+      <link rel="icon" href="favicon.ico?" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+      <script src="js/messages.js" type="text/javascript"></script>
+    </head>
+    <body>
+      <header>
+        <div class="fixed-width">
+          <a id="nav-logo" href="index.html"><img src="svvvlogo.png" alt="SVVV MUN" height="50px" width="50px"></a>
+          <nav id="nav-1">
+              <li class="nav-link"><a class="link-3" href="index.html">Home</a></li>
+              <li class="nav-link"><a class="link-3" href="about.html">About Us</a></li>
+              <li class="nav-link"><a class="link-3" href="">Messages</a></li>
+              <li class="nav-link"><a class="link-3" href="index.html#apply">Apply</a></li>
+              <li class="nav-link"><a class="link-3" href="committees.html">Committees</a></li>
+              <li class="nav-link"><a class="link-3" href="resources.html">Resources</a></li>
+              <li class="nav-link"><a class="link-3" href="contact.html">Contact Us</a></li>
+          </nav>
+        </div>
+      </header>
+
+      <div class="content">
+        <div class="content-fixed-width">
+          <div onclick='messageViceChancellor()' class="messageViceChancellor hover">
+            <h1>Message from the desk of Vice Chancellor</h1>
+          </div>
+          <div onclick='messageConvener()' class="messageConvener hover">
+            <h1>Message from the desk of Convener</h1>
+          </div>
+          <div onclick='messageFaculty()' class="messageFaculty hover">
+            <h1>Message from the desk of Faculty Advisor</h1>
+          </div>
+          <div id="messageContainer">
+            <div onclick="closeOpenWindow()" id="backButton">
+              &#171;
+            </div>
+            <br />
+            <div id="message">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-fixed-width">
+          <div class="social-icons">
+            <img src="footericons/twitter.png" alt="SVVV MUN Twitter" />
+          </div>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/SVVVIMUN/?hc_ref=SEARCH" target="_blank"><img src="footericons/facebook.png" alt="SVVV MUN Facebook" /></a>
+          </div>
+          <div class="social-icons">
+            <img src="footericons/insta.png" alt="SVVV MUN Instagram" />
+          </div>
+        </div>
+      </footer>
+    </body>
+</html>
