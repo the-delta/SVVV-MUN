@@ -1,0 +1,634 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+@media screen and (min-width: 1020px)
+{
+  .fixed-width{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position:relative;
+    border-bottom: 2px solid black;
+    text-align: center;
+  }
+
+  li {
+    width: 100px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 13px;
+    transition: 0.4s;
+  }
+
+  li:hover {
+    border-radius: 10px;
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+  }
+
+  #nav-1{
+    height: 100px;
+    float:left;
+    padding-top: 20px;
+    font-family: Raleway;
+  }
+
+  .active {
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+    border-radius: 10px;
+  }
+
+  #nav-logo {
+    padding-top: 20px;
+    float: left;
+  }
+  /*End of Navigation*/
+
+  /*start of css for content*/
+  /*start of css for conttainer-1*/
+  .container-1 {
+      width: 100%;
+      height: 695px;
+      background-image: url(../bg/svits.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding-top: 250px;
+      border-bottom: 2px solid black;
+  }
+
+  .highlight {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(192,192,192,0.7);
+  }
+
+  .container-welcome{
+    width: 1000px;
+    height: 300px;
+    padding-top: 59px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #container-welcome-logo {
+
+  }
+
+  .svvvimun-logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 30px;
+  }
+
+  #welcome-para {
+    font-family: 'Neuton', serif;
+    font-size: 30.5px;
+    width: 680px;
+    float: right;
+  }
+  /*End of css for conttainer-1*/
+
+  /*start of css for conttainer-2*/
+  .container-2 {
+    width: 100%;
+    height: 500px;
+    background-color: white;/*#F5F5F5 #DCDCDC*/
+    border-bottom: 2px solid black;
+    background-image: url(../bg/whitePolygon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container-2-fixed-width {
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .inform-MUN {
+    width: 100%;
+    font-family: 'Neuton', serif;
+    padding-top: 160px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  .inform-MUN:before {
+    color: black;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    display: inline;
+  }
+  .inform-MUN:after {
+    color: black;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    display: inline;
+  }
+
+  /*End of css for container-2*/
+
+  /*start of css for conttainer-3*/
+  .container-3 {
+    width: 100%;
+    height: 800px;
+    background-image: url(../bg/secretorySirMUN.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    border-bottom: 2px solid black;
+  }
+
+  .container-3-fixed-width {
+    font-family: 'Neuton', serif;
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(192,192,192,0.8);
+    text-align: left;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 25px;
+  }
+
+  /*end of css for conttainer-3*/
+
+
+
+  /*Start of css for container-4*/
+  .container-4 {
+    width: 100%;
+    height: 900px;
+    background-color: white;/*#F5F5F5 #DCDCDC*/
+    border-bottom: 2px solid black;
+    background-image: url(../bg/whitePolygon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container-4-fixed-width {
+    width: 1000px;
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .committees-logo {
+    width:200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 30px 30px 30px 0;
+  }
+
+  .committess-logo-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 1px solid none;
+    margin-top: 20px;
+  }
+  /*End of css for container-4*/
+
+  /*Start of css for container-5*/
+  .container-5 {
+    width: 100%;
+    height: 800px;
+    background-image: url('../bg/delegates.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    border-bottom: 2px solid black;
+  }
+
+  .highlighter-container-5 {
+      width: 100%;
+      height: 400px;
+      background-color: rgba(192,192,192,0.7);
+
+  }
+
+  .container-5-fixed-width {
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .type {
+    display: inline-block;
+    text-align: center;
+    margin: 80px 40px 0 40px;
+    color: white;
+  }
+  /*End of css for container-5*/
+
+/*Start of css for container-6-map*/
+  .container-6-map {
+    width:100%;
+    height: 500px;
+    background-color: white;
+    padding-top: 50px;
+  }
+  .conatiner-6-fixed-width {
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #map {
+  height: 400px;
+  width: 100%;
+ }
+
+/*End of css for container--6-map*/
+
+
+  /*end of css for content*/
+
+  footer {
+    width: 100%;
+    height: 100px;
+    border-top: 2px solid black;
+    background-color: white;
+    padding-top: 27px;
+  }
+  .footer-fixed-width {
+    width: 1000px;
+    height: 73px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .social-icons{
+    opacity:0.7;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1020px)
+{
+  .fixed-width{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 1020px;
+    height: 100px;
+    background-color: white;
+    position:relative;
+    border-bottom: 2px solid black;
+    text-align: center;
+  }
+
+  li {
+    width: 100px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 13px;
+    transition: 0.4s;
+  }
+
+  li:hover {
+    border-radius: 10px;
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+  }
+
+  #nav-1{
+    height: 100px;
+    float:left;
+    padding-top: 20px;
+    font-family: Raleway;
+  }
+
+  .active {
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+    border-radius: 10px;
+  }
+
+  #nav-logo {
+    padding-top: 20px;
+    float: left;
+  }
+  /*End of Navigation*/
+
+  /*start of css for content*/
+  /*start of css for conttainer-1*/
+  .container-1 {
+      width: 1020px;
+      height: 695px;
+      background-image: url(../bg/svits.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding-top: 250px;
+      border-bottom: 2px solid black;
+  }
+
+  .highlight {
+    width: 1020px;
+    height: 300px;
+    background-color: rgba(192,192,192,0.7);
+  }
+
+  .container-welcome{
+    width: 1000px;
+    height: 300px;
+    padding-top: 59px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #container-welcome-logo {
+
+  }
+
+  .svvvimun-logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 30px;
+  }
+
+  #welcome-para {
+    font-family: 'Neuton', serif;
+    font-size: 30.5px;
+    width: 680px;
+    float: right;
+  }
+  /*End of css for conttainer-1*/
+
+  /*start of css for conttainer-2*/
+  .container-2 {
+    width: 1020px;
+    height: 500px;
+    border-bottom: 2px solid black;
+    background-image: url(../bg/whitePolygon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container-2-fixed-width {
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .inform-MUN {
+    width: 1000px;
+    padding-top: 175px;
+  }
+
+  /*End of css for container-2*/
+
+  /*start of css for conttainer-3*/
+  .container-3 {
+    width: 1020px;
+    height: 800px;
+    background-image: url(../bg/secretorySirMUN.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    border-bottom: 2px solid black;
+  }
+
+  .container-3-fixed-width {
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(192,192,192,0.7);
+    text-align: left;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 25px;
+  }
+
+  /*end of css for conttainer-3*/
+
+
+
+  /*Start of css for container-4*/
+  .container-4 {
+    width: 1020px;
+    height: 900px;
+    background-color: #F5F5F5;/* #DCDCDC*/
+    border-bottom: 2px solid black;
+    background-image: url(../bg/whitePolygon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container-4-fixed-width {
+    width: 1000px;
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+
+  .committees-logo {
+    width:200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 30px 30px 30px 0;
+  }
+
+  .committess-logo-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 1px solid none;
+    margin-top: 20px;
+  }
+  /*End of css for container-4*/
+
+  /*Start of css for container-5*/
+  .container-5 {
+    width: 1020px;
+    height: 800px;
+    background-image: url('../bg/delegates.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+  }
+
+  .highlighter-container-5 {
+      width: 1020px;
+      height: 400px;
+      background-color: rgba(192,192,192,0.7);
+  }
+
+  .container-5-fixed-width {
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .type {
+    display: inline-block;
+    text-align: center;
+    margin: 80px 40px 0 40px;
+    color: white;
+  }
+  /*End of css for container-5*/
+
+  /*Start of css for container-6-map*/
+    .container-6-map {
+      width:1020px;
+      height: 500px;
+      background-color: white;
+      padding-top: 50px;
+    }
+    .conatiner-6-fixed-width {
+      width: 1000px;
+      height: 400px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    #map {
+    height: 400px;
+    width: 100%;
+   }
+
+  /*End of css for container--6-map*/
+
+  /*end of css for content*/
+
+  footer {
+    width: 1020px;
+    height: 100px;
+    border-top: 2px solid black;
+    background-color: white;
+    padding-top: 27px;
+  }
+  .footer-fixed-width {
+    width: 1000px;
+    height: 73px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .social-icons{
+    opacity:0.7;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/*css for scrollbars*/
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.3);
+}
+
+::-o-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-o-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Handle */
+::-o-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+}
+::-o-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.3);
+}
+
+::-moz-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Handle */
+::-moz-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+}
+::-moz-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.3);
+}
+/*End of css for scrollbar*/
