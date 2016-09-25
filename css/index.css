@@ -48,6 +48,12 @@
     font-family: Raleway;
   }
 
+  .active {
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+    border-radius: 10px;
+  }
+
   #nav-logo {
     padding-top: 20px;
     float: left;
@@ -119,9 +125,29 @@
     margin: 0 auto;
   }
   .inform-MUN {
-    font-family: 'Neuton', serif;
     width: 100%;
-    padding-top: 175px;
+    font-family: 'Neuton', serif;
+    padding-top: 160px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  .inform-MUN:before {
+    color: black;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    display: inline;
+  }
+  .inform-MUN:after {
+    color: black;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    display: inline;
   }
 
   /*End of css for container-2*/
@@ -314,6 +340,12 @@
     font-family: Raleway;
   }
 
+  .active {
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+    border-radius: 10px;
+  }
+
   #nav-logo {
     padding-top: 20px;
     float: left;
@@ -413,7 +445,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    line-height: 25px;
+    line-height: 20px;
   }
 
   /*end of css for conttainer-3*/

@@ -48,6 +48,12 @@
     font-family: Raleway;
   }
 
+  .active {
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+    border-radius: 10px;
+  }
+
   #nav-logo {
     padding-top: 20px;
     float: left;
@@ -60,7 +66,7 @@
     width: 100%;
     height: 700px;
     padding-top: 120px;
-    background-image: url(../bg/bg-5.jpg);
+    background-image: url(../bg/bg-4.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -76,8 +82,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(0,0,255,0.1);
-    border: 1px solid rgba(0,0,255,0.1);
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     margin-left: 20px;
@@ -90,8 +96,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(0,0,255,0.1);
-    border: 1px solid rgba(0,0,255,0.1);
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     margin-right: 30px;
@@ -103,8 +109,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(0,0,255,0.1);
-    border: 1px solid rgba(0,0,255,0.1);
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     padding-top: 85px;
@@ -114,7 +120,6 @@
 
   .hover:hover {
     margin-top: 115px;
-    background-color: rgba(0,255,0,0.05);
   }
 
   #messageContainer {
@@ -212,6 +217,12 @@
     font-family: Raleway;
   }
 
+  .active {
+    background-color: rgba(0,0,255,0.1);
+    color:#3AA9F5;
+    border-radius: 10px;
+  }
+
   #nav-logo {
     padding-top: 20px;
     float: left;
@@ -223,7 +234,7 @@
     width: 1020;
     height: 700px;
     padding-top: 120px;
-    background-image: url(../bg/bg-5.jpg);
+    background-image: url(../bg/bg-4.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -239,8 +250,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(0,0,255,0.1);
-    border: 1px solid rgba(0,0,255,0.1);
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     margin-left: 20px;
@@ -253,8 +264,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(0,0,255,0.1);
-    border: 1px solid rgba(0,0,255,0.1);
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     margin-right: 30px;
@@ -266,8 +277,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(0,0,255,0.1);
-    border: 1px solid rgba(0,0,255,0.1);
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     padding-top: 85px;
