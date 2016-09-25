@@ -417,7 +417,28 @@
   }
   .inform-MUN {
     width: 1000px;
-    padding-top: 175px;
+    font-family: 'Neuton', serif;
+    padding-top: 160px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  .inform-MUN:before {
+    color: black;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    display: inline;
+  }
+  .inform-MUN:after {
+    color: black;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    display: inline;
   }
 
   /*End of css for container-2*/
