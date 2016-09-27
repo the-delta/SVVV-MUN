@@ -82,8 +82,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(255,255,255,1);
-    border: 1px solid rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0.7);
+    border: 1px inset rgba(200,200,200,1);
     border-radius: 5px;
     cursor: pointer;
     margin-left: 20px;
@@ -91,31 +91,43 @@
     padding-top: 85px;
     margin-top: 125px;
     font-size: 15px;
+    background-image: url(../bg/bg-5.jpg);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .messageConvener {
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(255,255,255,1);
-    border: 1px solid rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0.7);
+    border: 1px inset rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     margin-right: 30px;
     padding-top: 85px;
     margin-top: 125px;
     font-size: 15px;
+    background-image: url(../bg/bg-5.jpg);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .messageFaculty {
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(255,255,255,1);
-    border: 1px solid rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0.7);
+    border: 1px inset rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     padding-top: 85px;
     margin-top: 125px;
     font-size: 15px;
+    background-image: url(../bg/bg-5.jpg);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .hover:hover {
@@ -250,8 +262,8 @@
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(255,255,255,1);
-    border: 1px solid rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0.7);
+    border: 1px inset rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     margin-left: 20px;
@@ -259,31 +271,43 @@
     padding-top: 85px;
     margin-top: 125px;
     font-size: 15px;
+    background-image: url(../bg/bg-5.jpg);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .messageConvener {
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(255,255,255,1);
-    border: 1px solid rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0.7);
+    border: 1px inset rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     margin-right: 30px;
     padding-top: 85px;
     margin-top: 125px;
     font-size: 15px;
+    background-image: url(../bg/bg-5.jpg);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .messageFaculty {
     width: 300px;
     height: 250px;
     float: left;
-    background-color: rgba(255,255,255,1);
-    border: 1px solid rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0.7);
+    border: 1px inset rgba(255,255,255,1);
     border-radius: 5px;
     cursor: pointer;
     padding-top: 85px;
     margin-top: 125px;
     font-size: 15px;
+    background-image: url(../bg/bg-5.jpg);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .hover:hover {
